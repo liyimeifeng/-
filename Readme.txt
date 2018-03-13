@@ -1,21 +1,21 @@
 
-========¡·½âÑ¹demo.apk£¬½âÑ¹dex2jarÑ¹Ëõ°ü
-========¡·ÕÒµ½demo.zipÖĞµÄclasses.dexÎÄ¼ş£¬¿½±´µ½dex2jar½âÑ¹ºóÄ¿Â¼£¬cmd½øÈëÍ¬ÑùµÄÄ¿Â¼
-          Ö´ĞĞ d2j-dex2jar classes.dex
-	  Ã»±¨´í£¬¼´×ª»»³É¹¦£¬classes-dex2jar.jar¾ÍÊÇÎÒÃÇ×ª»»³öÀ´µÄjarÎÄ¼ş
-========¡·Ê¹ÓÃjd-gui¹¤¾ß´ò¿ªclasses.dex2jar.jarÎÄ¼ş
+========ã€‹è§£å‹demo.apkï¼Œé‡å‘½åä¸ºdemo.zip,è§£å‹ç¼©ï¼Œç„¶åè§£å‹dex2jarå‹ç¼©åŒ…
+========ã€‹æ‰¾åˆ°demo.zipä¸­çš„classes.dexæ–‡ä»¶ï¼Œæ‹·è´åˆ°dex2jarè§£å‹åç›®å½•ï¼Œcmdè¿›å…¥åŒæ ·çš„ç›®å½•
+          æ‰§è¡Œ d2j-dex2jar classes.dex
+	  æ²¡æŠ¥é”™ï¼Œå³è½¬æ¢æˆåŠŸï¼Œclasses-dex2jar.jarå°±æ˜¯æˆ‘ä»¬è½¬æ¢å‡ºæ¥çš„jaræ–‡ä»¶
+========ã€‹ä½¿ç”¨jd-guiå·¥å…·æ‰“å¼€classes.dex2jar.jaræ–‡ä»¶
 
 
-========¡··´±àÒëÔ­Ê¼×ÊÔ´ÎÄ¼ş,½âÑ¹apktoolÑ¹Ëõ°ü£¬Ê¹ÓÃ×îĞÂ°æµÄapktool.jar
-========¡·½«demo.apk¿½±´µ½apktool.jarËùÔÚÄ¿Â¼£¬cmd½øÈë¸ÃÄ¿Â¼
-	  Ö´ĞĞ apktool d demo.ap
-          ²»³öÏÖÒì³£¼´³É¹¦£¬Èç¹û³öÏÖexception£¬¿ÉÄÜÊÇÊ¹ÓÃ¹ıÀÏ°æ±¾apktool½øĞĞ·´±àÒë¹ı£¬
-          ½«C:\Users\Administrator\apktool\frameworkÕâ¸öÄ¿Â¼ÏÂÉú³ÉÒ»¸öÃû×ÖÎª1.apkµÄ»º´æÎÄ¼ş£¬
-	  ½«Õâ¸ö»º´æÎÄ¼şÉ¾³ıµô£¬È»ºóÔÙÖØĞÂÖ´ĞĞ·´±àÒëÃüÁî
+========ã€‹åç¼–è¯‘åŸå§‹èµ„æºæ–‡ä»¶,è§£å‹apktoolå‹ç¼©åŒ…ï¼Œä½¿ç”¨æœ€æ–°ç‰ˆçš„apktool.jar
+========ã€‹å°†demo.apkæ‹·è´åˆ°apktool.jaræ‰€åœ¨ç›®å½•ï¼Œcmdè¿›å…¥è¯¥ç›®å½•
+	  æ‰§è¡Œ apktool d demo.ap
+          ä¸å‡ºç°å¼‚å¸¸å³æˆåŠŸï¼Œå¦‚æœå‡ºç°exceptionï¼Œå¯èƒ½æ˜¯ä½¿ç”¨è¿‡è€ç‰ˆæœ¬apktoolè¿›è¡Œåç¼–è¯‘è¿‡ï¼Œ
+          å°†C:\Users\Administrator\apktool\frameworkè¿™ä¸ªç›®å½•ä¸‹ç”Ÿæˆä¸€ä¸ªåå­—ä¸º1.apkçš„ç¼“å­˜æ–‡ä»¶ï¼Œ
+	  å°†è¿™ä¸ªç¼“å­˜æ–‡ä»¶åˆ é™¤æ‰ï¼Œç„¶åå†é‡æ–°æ‰§è¡Œåç¼–è¯‘å‘½ä»¤
 
 
-========¡·ÖØĞÂ´ò°ü£¬½øÈëapktool·´±àÒëºóµÄ°üÄ¿Â¼£¬cmdÖ´ĞĞ
-          apktool b demo -o new_demo.apk  (b±íÊ¾build£¬-oÖ¸¶¨ĞÂÉú³ÉµÄapkÎÄ¼şÃû)
-	  Ê¹ÓÃASÉú³ÉÒ»¸ö¼òµ¥µÄÇ©ÃûÎÄ¼ş£¬¶ÔĞÂµÄapk½øĞĞÇ©Ãû
-          jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore Ç©ÃûÎÄ¼şÃû -storepass Ç©ÃûÃÜÂë ´ıÇ©ÃûµÄAPKÎÄ¼şÃû Ç©ÃûµÄ±ğÃû
+========ã€‹é‡æ–°æ‰“åŒ…ï¼Œè¿›å…¥apktoolåç¼–è¯‘åçš„åŒ…ç›®å½•ï¼Œcmdæ‰§è¡Œ
+          apktool b demo -o new_demo.apk  (bè¡¨ç¤ºbuildï¼Œ-oæŒ‡å®šæ–°ç”Ÿæˆçš„apkæ–‡ä»¶å)
+	  ä½¿ç”¨ASç”Ÿæˆä¸€ä¸ªç®€å•çš„ç­¾åæ–‡ä»¶ï¼Œå¯¹æ–°çš„apkè¿›è¡Œç­¾å
+          jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ç­¾åæ–‡ä»¶å -storepass ç­¾åå¯†ç  å¾…ç­¾åçš„APKæ–‡ä»¶å ç­¾åçš„åˆ«å
 
